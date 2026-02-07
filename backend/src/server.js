@@ -1,10 +1,8 @@
 /**
- * THE FINAL FIX - server.js
  * 
  * PROBLEM: Redis connected BUT session cookie not reaching browser
  * CAUSE: SameSite=None cookies need special CORS handling
  * 
- * REPLACE: backend/src/server.js WITH THIS
  */
 
 require('dotenv').config();
